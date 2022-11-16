@@ -2,7 +2,7 @@
 """Request employee ID from API
 """
 
-from json import load
+import csv
 import requests
 from sys import argv
 
@@ -23,12 +23,17 @@ if __name__ == "__main__":
         r = r.json()
         return r
 
-    user = make_request('users', ('id', argv[1]))
+    user = make_request('users', ('id', argv[1]))[0]
     tasks = make_request('todos', ('userId', argv[1]))
-    tasks_completed = [task for task in tasks if task['completed']]
 
-    print('Employee {} is done with tasks({}/{}):'.format(user[0]['name'],
-                                                          len(tasks_completed),
-                                                          len(tasks)))
-    for task in tasks_completed:
-        print('\t {}'.format(task['title']))
+    csv_filename = argv[1] + '.csv'
+    with open(csv_filename, mode='w') as f:
+        writer = csv.writer(f,
+                            delimiter=',',
+                            quotechar='"',
+                            quoting=csv.QUOTE_ALL)
+        for task in tasks:
+            writer.writerow([user['id'],
+                            user['username'],
+                            task['completed'],
+                            task['title']])
