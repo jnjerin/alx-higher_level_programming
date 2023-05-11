@@ -1,23 +1,37 @@
 #!/usr/bin/python3
-"""task 6 model"""
+"""Find peak in list of unsorted integers
+"""
 
 
 def find_peak(list_of_integers):
-    """Return a peak in a list of unsorted integers."""
-    if list_of_integers == []:
+    """Find peak in unsorted list
+    """
+    loi = list_of_integers
+    size = len(loi)
+
+    if size == 0:
         return None
 
-    size = len(list_of_integers)
-    if size == 1:
-        return list_of_integers[0]
-    elif size == 2:
-        return max(list_of_integers)
+    if size is 1:
+        return loi[0]
 
-    mid = int(size / 2)
-    peak = list_of_integers[mid]
-    if peak > list_of_integers[mid - 1] and peak > list_of_integers[mid + 1]:
-        return peak
-    elif peak < list_of_integers[mid - 1]:
-        return find_peak(list_of_integers[:mid])
-    else:
-        return find_peak(list_of_integers[mid + 1:])
+    return recurse(loi, 0, size - 1)
+
+
+def recurse(loi, left, right):
+    """Recursive component
+    """
+    mid = int((left + right) / 2)
+
+    if left > right:
+        return loi[mid]
+
+    if (mid == 0 or loi[mid] > loi[mid - 1])\
+       and (mid == len(loi) - 1 or loi[mid] > loi[mid + 1]):
+        return loi[mid]
+
+    # recurse left
+    elif (mid > 0) and loi[mid - 1] > loi[mid]:
+        return recurse(loi, left, mid - 1)
+    else:  # recurse right
+        return recurse(loi, mid + 1, right)
