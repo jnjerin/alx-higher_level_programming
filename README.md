@@ -11,3 +11,5 @@
 | [0x04-python-more_data_structures](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x04-python-more_data_structures) | Python - More Data Structures: Set, Dictionary |
 | [0x05-python-exceptions](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x05-python-exceptions) | Python - exceptions |
 | [0x06-python-classes](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x06-python-classes) | Python classes |
+| [0x07-python-test_driven_development](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x07-python-test_driven_development) | Python - Python Test Driven Development |
+| [0x08-python-more_classes](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x08-python-more_classes) | Python classes |
