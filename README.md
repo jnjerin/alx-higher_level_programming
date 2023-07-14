@@ -13,3 +13,5 @@
 | [0x06-python-classes](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x06-python-classes) | Python classes |
 | [0x07-python-test_driven_development](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x07-python-test_driven_development) | Python - Python Test Driven Development |
 | [0x08-python-more_classes](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x08-python-more_classes) | Python classes |
+| [0x09-python-everything_is_object](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x09-python-everything_is_object) | Object Oriented Programming concepts with Python |
+| [0x10-python-network_0](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x10-python-network_0) | HTTP basics |
