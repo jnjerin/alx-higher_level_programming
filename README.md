@@ -15,3 +15,4 @@
 | [0x08-python-more_classes](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x08-python-more_classes) | Python classes |
 | [0x09-python-everything_is_object](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x09-python-everything_is_object) | Object Oriented Programming concepts with Python |
 | [0x10-python-network_0](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x10-python-network_0) | HTTP basics |
+| [0x11-python-network_1](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x11-python-network_1) | Python network |
