@@ -17,3 +17,4 @@
 | [0x10-python-network_0](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x10-python-network_0) | HTTP basics |
 | [0x11-python-network_1](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x11-python-network_1) | Python network |
 | [0x12-javascript-warm_up](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x12-javascript-warm_up) | Javascript basics |
+| [0x13-javascript_objects_scopes_closures](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x13-javascript_objects_scopes_closures) | Javascript - objects,scopes,closures |
