@@ -18,3 +18,5 @@
 | [0x11-python-network_1](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x11-python-network_1) | Python network |
 | [0x12-javascript-warm_up](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x12-javascript-warm_up) | Javascript basics |
 | [0x13-javascript_objects_scopes_closures](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x13-javascript_objects_scopes_closures) | Javascript - objects,scopes,closures |
+| [0x14-javascript-web_scraping](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x14-javascript-web_scraping) | Web scraping |
+| [0x15-javascript-web_jquery](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x15-javascript-web_jquery) | Web JQuery |
