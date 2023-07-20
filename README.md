@@ -22,3 +22,5 @@
 | [0x15-javascript-web_jquery](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x15-javascript-web_jquery) | Web JQuery |
 | [0x0A-python-inheritance](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x0A-python-inheritance) | Inheritance with Python |
 | [0x0B-python-input_output](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x0B-python-input_output) | Python - Reading & Writing Files |
+| [0x0C-python-almost_a_circle](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle) |Python- Almost a circle |
+| [0x0D-SQL_introduction](https://github.com/jnjerin/alx-higher_level_programming/tree/main/0x0D-SQL_introduction) | Introduction and foundations of SQL |
